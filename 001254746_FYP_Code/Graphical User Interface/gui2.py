@@ -171,7 +171,7 @@ def shap_explanations(X_new, model, features):
 
 def open_api_explanaitions_overall_model(image_path):
     os.environ[
-        "OPENAI_API_KEY"] = "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"
+        "OPENAI_API_KEY"]
 
     client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
     def encode_image(image_path):
